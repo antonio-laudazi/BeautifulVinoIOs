@@ -1,0 +1,237 @@
+
+/* Class = "UILabel"; text = "Uvaggio:"; ObjectID = "10v-EN-izd"; */
+"10v-EN-izd.text" = "Uvaggio:";
+
+/* Class = "UILabel"; text = "azienda"; ObjectID = "1Rf-Ei-a6Y"; */
+"1Rf-Ei-a6Y.text" = "azienda";
+
+/* Class = "UIButton"; normalTitle = "Dimenticato la password?"; ObjectID = "3Fm-fu-yJi"; */
+"3Fm-fu-yJi.normalTitle" = "Dimenticato la password?";
+
+/* Class = "UILabel"; text = "telefono"; ObjectID = "3Ju-0n-eqi"; */
+"3Ju-0n-eqi.text" = "telefono";
+
+/* Class = "UILabel"; text = "INFO AZIENDA"; ObjectID = "3d1-ME-nr0"; */
+"3d1-ME-nr0.text" = "INFO AZIENDA";
+
+/* Class = "UILabel"; text = "indirizzo"; ObjectID = "3nE-cd-mhb"; */
+"3nE-cd-mhb.text" = "indirizzo";
+
+/* Class = "UIButton"; normalTitle = "Più tardi"; ObjectID = "5XB-5p-tDN"; */
+"5XB-5p-tDN.normalTitle" = "Più tardi";
+
+/* Class = "UIButton"; normalTitle = "Conferma Lettura"; ObjectID = "68b-1o-KwY"; */
+"68b-1o-KwY.normalTitle" = "Conferma Lettura";
+
+/* Class = "UILabel"; text = "Città"; ObjectID = "6T3-dm-HpI"; */
+"6T3-dm-HpI.text" = "Città";
+
+/* Class = "UIButton"; normalTitle = "Acquista"; ObjectID = "7OZ-jC-a11"; */
+"7OZ-jC-a11.normalTitle" = "Acquista";
+
+/* Class = "UILabel"; text = "città"; ObjectID = "7Pf-RI-97l"; */
+"7Pf-RI-97l.text" = "città";
+
+/* Class = "UILabel"; text = "max "; ObjectID = "9FU-fT-aKk"; */
+"9FU-fT-aKk.text" = "max ";
+
+/* Class = "UILabel"; text = "Questo evento ti regala il badge:"; ObjectID = "9wj-wm-3XZ"; */
+"9wj-wm-3XZ.text" = "Questo evento ti regala il badge:";
+
+/* Class = "UILabel"; text = "Nome"; ObjectID = "BZh-rx-l0u"; */
+"BZh-rx-l0u.text" = "Nome";
+
+/* Class = "UILabel"; text = "Già registrato? Effettua il"; ObjectID = "Bdc-cb-oAf"; */
+"Bdc-cb-oAf.text" = "Già registrato? Effettua il";
+
+/* Class = "UILabel"; text = "E-mail"; ObjectID = "Cpf-cb-evK"; */
+"Cpf-cb-evK.text" = "E-mail";
+
+/* Class = "UILabel"; text = "oppure "; ObjectID = "EYk-rT-qLZ"; */
+"EYk-rT-qLZ.text" = "oppure ";
+
+/* Class = "UILabel"; text = "luogo"; ObjectID = "Ega-3a-KEl"; */
+"Ega-3a-KEl.text" = "luogo";
+
+/* Class = "UILabel"; text = "città"; ObjectID = "FU8-yw-YVg"; */
+"FU8-yw-YVg.text" = "città";
+
+/* Class = "UILabel"; text = "testo"; ObjectID = "FeW-2b-y06"; */
+"FeW-2b-y06.text" = "testo";
+
+/* Class = "UILabel"; text = "Registrati"; ObjectID = "FyJ-x4-dce"; */
+"FyJ-x4-dce.text" = "Registrati";
+
+/* Class = "UILabel"; text = "Completa il tuo profilo per una migliore esperienza!"; ObjectID = "GGF-7b-4Qj"; */
+"GGF-7b-4Qj.text" = "Completa il tuo profilo per una migliore esperienza!";
+
+/* Class = "UILabel"; text = "password"; ObjectID = "GMm-hG-94V"; */
+"GMm-hG-94V.text" = "password";
+
+/* Class = "UILabel"; text = "Titolo"; ObjectID = "JoM-Td-6zg"; */
+"JoM-Td-6zg.text" = "Titolo";
+
+/* Class = "UITabBarItem"; title = "profilo"; ObjectID = "JvE-Rs-bqG"; */
+"JvE-Rs-bqG.title" = "profilo";
+
+/* Class = "UIButton"; normalTitle = "REGISTRATI"; ObjectID = "Jx1-7Q-uTj"; */
+"Jx1-7Q-uTj.normalTitle" = "REGISTRATI";
+
+/* Class = "UILabel"; text = "Nella carta dei Vini di:"; ObjectID = "KQQ-2e-Joe"; */
+"KQQ-2e-Joe.text" = "Nella carta dei Vini di:";
+
+/* Class = "UILabel"; text = "biografia"; ObjectID = "KqX-1a-Hau"; */
+"KqX-1a-Hau.text" = "biografia";
+
+/* Class = "UIButton"; normalTitle = "salta"; ObjectID = "LSv-T1-BmT"; */
+"LSv-T1-BmT.normalTitle" = "salta";
+
+/* Class = "UIButton"; normalTitle = "AGGIUNGI"; ObjectID = "Mmf-pk-1z8"; */
+"Mmf-pk-1z8.normalTitle" = "AGGIUNGI";
+
+/* Class = "UIButton"; normalTitle = "go"; ObjectID = "Oke-zv-qbm"; */
+"Oke-zv-qbm.normalTitle" = "go";
+
+/* Class = "UIButton"; normalTitle = "info"; ObjectID = "Pyp-KA-7jo"; */
+"Pyp-KA-7jo.normalTitle" = "info";
+
+/* Class = "UILabel"; text = "Titolo "; ObjectID = "Q3M-HW-d3f"; */
+"Q3M-HW-d3f.text" = "Titolo ";
+
+/* Class = "UILabel"; text = "PROSSIMI EVENTI"; ObjectID = "Q8N-xj-1UE"; */
+"Q8N-xj-1UE.text" = "PROSSIMI EVENTI";
+
+/* Class = "UILabel"; text = "Biografia"; ObjectID = "RBM-2m-5GS"; */
+"RBM-2m-5GS.text" = "Biografia";
+
+/* Class = "UIButton"; normalTitle = "ENTRA"; ObjectID = "REx-cs-nxm"; */
+"REx-cs-nxm.normalTitle" = "ENTRA";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "RGe-II-QoB"; */
+"RGe-II-QoB.text" = "Title";
+
+/* Class = "UILabel"; text = "e-mail"; ObjectID = "SME-nW-PRe"; */
+"SME-nW-PRe.text" = "e-mail";
+
+/* Class = "UILabel"; text = "Partecipanti"; ObjectID = "U4Q-ke-zpk"; */
+"U4Q-ke-zpk.text" = "Partecipanti";
+
+/* Class = "UIButton"; normalTitle = "Acquista"; ObjectID = "UGo-qF-2yy"; */
+"UGo-qF-2yy.normalTitle" = "Acquista";
+
+/* Class = "UILabel"; text = "nomeVino/titoloEvento"; ObjectID = "UXq-S6-Hst"; */
+"UXq-S6-Hst.text" = "nomeVino/titoloEvento";
+
+/* Class = "UILabel"; text = "città"; ObjectID = "WnE-8J-gSu"; */
+"WnE-8J-gSu.text" = "città";
+
+/* Class = "UILabel"; text = "SCOPRI"; ObjectID = "XKs-We-pJH"; */
+"XKs-We-pJH.text" = "SCOPRI";
+
+/* Class = "UIButton"; normalTitle = "Salva"; ObjectID = "Xmy-lX-9Hx"; */
+"Xmy-lX-9Hx.normalTitle" = "Salva";
+
+/* Class = "UILabel"; text = "Regione:"; ObjectID = "a5p-ij-JfG"; */
+"a5p-ij-JfG.text" = "Regione:";
+
+/* Class = "UIButton"; normalTitle = "facebook"; ObjectID = "a9t-tz-seE"; */
+"a9t-tz-seE.normalTitle" = "facebook";
+
+/* Class = "UITabBarItem"; title = "eventi"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "eventi";
+
+/* Class = "UILabel"; text = "Profumo:"; ObjectID = "agC-w6-hAN"; */
+"agC-w6-hAN.text" = "Profumo:";
+
+/* Class = "UILabel"; text = "testo"; ObjectID = "atj-79-vkH"; */
+"atj-79-vkH.text" = "testo";
+
+/* Class = "UILabel"; text = "a scuola dai vignaioli!"; ObjectID = "bgE-po-M9i"; */
+"bgE-po-M9i.text" = "a scuola dai vignaioli!";
+
+/* Class = "UITabBarItem"; title = "scopri"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "scopri";
+
+/* Class = "UILabel"; text = "DOVE"; ObjectID = "cwn-Vf-uDO"; */
+"cwn-Vf-uDO.text" = "DOVE";
+
+/* Class = "UILabel"; text = "tema/info"; ObjectID = "dr9-YN-I9e"; */
+"dr9-YN-I9e.text" = "tema/info";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "eT9-cx-0Fj"; */
+"eT9-cx-0Fj.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "fOt-vV-viA"; */
+"fOt-vV-viA.text" = "email";
+
+/* Class = "UILabel"; text = "Titolo"; ObjectID = "fw6-7N-Tsl"; */
+"fw6-7N-Tsl.text" = "Titolo";
+
+/* Class = "UILabel"; text = "Cambia provincia"; ObjectID = "fxJ-Bn-inF"; */
+"fxJ-Bn-inF.text" = "Cambia provincia";
+
+/* Class = "UILabel"; text = " indirizzo "; ObjectID = "h8d-pZ-BGf"; */
+"h8d-pZ-BGf.text" = " indirizzo ";
+
+/* Class = "UIButton"; normalTitle = "reggio emilia"; ObjectID = "hEy-qk-roW"; */
+"hEy-qk-roW.normalTitle" = "reggio emilia";
+
+/* Class = "UIButton"; normalTitle = "Avanti"; ObjectID = "iWc-Pt-Hul"; */
+"iWc-Pt-Hul.normalTitle" = "Avanti";
+
+/* Class = "UILabel"; text = "PROSSIMI EVENTI"; ObjectID = "iyq-Zv-AsD"; */
+"iyq-Zv-AsD.text" = "PROSSIMI EVENTI";
+
+/* Class = "UILabel"; text = "sito"; ObjectID = "kyi-OY-seN"; */
+"kyi-OY-seN.text" = "sito";
+
+/* Class = "UILabel"; text = "Professione"; ObjectID = "l1F-DQ-bxe"; */
+"l1F-DQ-bxe.text" = "Professione";
+
+/* Class = "UILabel"; text = "Già iscritti"; ObjectID = "lKV-ME-hk5"; */
+"lKV-ME-hk5.text" = "Già iscritti";
+
+/* Class = "UILabel"; text = "nome badge"; ObjectID = "lfA-j1-uG8"; */
+"lfA-j1-uG8.text" = "nome badge";
+
+/* Class = "UILabel"; text = "Il vino non è mai stato così bello"; ObjectID = "nbp-TW-7uS"; */
+"nbp-TW-7uS.text" = "Il vino non è mai stato così bello";
+
+/* Class = "UILabel"; text = "telefono"; ObjectID = "ox5-sj-8QO"; */
+"ox5-sj-8QO.text" = "telefono";
+
+/* Class = "UILabel"; text = "Titolo"; ObjectID = "rwG-7a-MKT"; */
+"rwG-7a-MKT.text" = "Titolo";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "tLQ-2H-UAm"; */
+"tLQ-2H-UAm.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "tg6-kS-7lW"; */
+"tg6-kS-7lW.text" = "email";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uC9-p7-He7"; */
+"uC9-p7-He7.text" = "Title";
+
+/* Class = "UILabel"; text = "disponibili ancora"; ObjectID = "vNw-A7-iAW"; */
+"vNw-A7-iAW.text" = "disponibili ancora";
+
+/* Class = "UILabel"; text = "DOVE"; ObjectID = "vzO-kt-1kL"; */
+"vzO-kt-1kL.text" = "DOVE";
+
+/* Class = "UIButton"; normalTitle = "google"; ObjectID = "w0D-O9-olO"; */
+"w0D-O9-olO.normalTitle" = "google";
+
+/* Class = "UILabel"; text = "Entra nel nostro club di degustazione e partecipa solo a eventi particolari"; ObjectID = "wdg-lx-NbA"; */
+"wdg-lx-NbA.text" = "Entra nel nostro club di degustazione e partecipa solo a eventi particolari";
+
+/* Class = "UILabel"; text = "password"; ObjectID = "xI7-5F-42K"; */
+"xI7-5F-42K.text" = "password";
+
+/* Class = "UISegmentedControl"; y3T-zg-2AD.segmentTitles[0] = "EVENTI"; ObjectID = "y3T-zg-2AD"; */
+"y3T-zg-2AD.segmentTitles[0]" = "EVENTI";
+
+/* Class = "UISegmentedControl"; y3T-zg-2AD.segmentTitles[1] = "CARTA DEI VINI"; ObjectID = "y3T-zg-2AD"; */
+"y3T-zg-2AD.segmentTitles[1]" = "CARTA DEI VINI";
+
+/* Class = "UISegmentedControl"; y3T-zg-2AD.segmentTitles[2] = "BADGE"; ObjectID = "y3T-zg-2AD"; */
+"y3T-zg-2AD.segmentTitles[2]" = "BADGE";

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Larsseit-Medium.otf">
+            <string>Larsseit-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Beautifulvino" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Byl-Jm-FQh"/>
+                <outlet property="imageViewSmall" destination="BJh-5r-9Dw" id="qf1-32-heC"/>
+                <outlet property="labelHeader" destination="Uvk-I2-CET" id="cPG-1a-VQj"/>
+                <outlet property="labelSottoheader" destination="WVB-Nl-E2b" id="k32-Iq-kJ1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="header" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvk-I2-CET">
+                    <rect key="frame" x="52" y="2" width="323" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="roC-QY-Wuw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Larsseit-Medium" family="Larsseit" pointSize="18"/>
+                    <color key="textColor" red="0.27450980392156865" green="0.16862745098039217" blue="0.20784313725490194" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="BJh-5r-9Dw">
+                    <rect key="frame" x="0.0" y="1" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Ona-if-gkf"/>
+                        <constraint firstAttribute="width" constant="44" id="Y1r-7q-vm4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sottoheader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVB-Nl-E2b">
+                    <rect key="frame" x="52" y="23" width="323" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="TEL-UB-GGs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Larsseit-Medium" family="Larsseit" pointSize="12"/>
+                    <color key="textColor" red="0.94509803920000002" green="0.17254901959999999" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Uvk-I2-CET" secondAttribute="trailing" id="5AR-pv-ubZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WVB-Nl-E2b" secondAttribute="trailing" id="JF9-bC-Z1j"/>
+                <constraint firstItem="Uvk-I2-CET" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="2" id="MqI-qj-cPF"/>
+                <constraint firstItem="WVB-Nl-E2b" firstAttribute="top" secondItem="Uvk-I2-CET" secondAttribute="bottom" id="Mrj-pz-OCJ"/>
+                <constraint firstItem="BJh-5r-9Dw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="PpD-BG-iig"/>
+                <constraint firstItem="BJh-5r-9Dw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="1" id="gM6-vp-Kyj"/>
+                <constraint firstItem="WVB-Nl-E2b" firstAttribute="leading" secondItem="BJh-5r-9Dw" secondAttribute="trailing" constant="8" id="xO0-3e-Byq"/>
+                <constraint firstItem="Uvk-I2-CET" firstAttribute="leading" secondItem="BJh-5r-9Dw" secondAttribute="trailing" constant="8" id="xeP-0j-CEf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="60.5" y="168"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder" width="295" height="160"/>
+    </resources>
+</document>

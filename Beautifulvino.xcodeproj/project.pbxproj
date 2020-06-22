@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50191FD2004F43B00124587 /* TableSectionFooterVino.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50191FC2004F43B00124587 /* TableSectionFooterVino.swift */; };
+		B50191FF2004F44C00124587 /* TableSectionFooterVino.xib in Resources */ = {isa = PBXBuildFile; fileRef = B50191FE2004F44C00124587 /* TableSectionFooterVino.xib */; };
+		B50F4FBC2024698000BDB291 /* FacebookProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50F4FBB2024698000BDB291 /* FacebookProvider.swift */; };
+		B5117AA92019F55C00C163A4 /* ViewContentProfiloF.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5117AA82019F55C00C163A4 /* ViewContentProfiloF.xib */; };
+		B5117AAB2019F63900C163A4 /* ViewContentProfiloF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5117AAA2019F63900C163A4 /* ViewContentProfiloF.swift */; };
+		B5117AAD2019FB2100C163A4 /* ViewContentProfiloS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5117AAC2019FB2100C163A4 /* ViewContentProfiloS.swift */; };
+		B5117AAF2019FB2D00C163A4 /* ViewContentProfiloS.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5117AAE2019FB2D00C163A4 /* ViewContentProfiloS.xib */; };
+		B51D49EC1FAC7B6600FD00AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D49EB1FAC7B4500FD00AA /* MapKit.framework */; };
+		B51D49EE1FAC8D9900FD00AA /* Utente.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D49ED1FAC8D9900FD00AA /* Utente.swift */; };
+		B5345CA5201F2D3A002DF35B /* GoogleService-Info1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5345CA4201F2D39002DF35B /* GoogleService-Info1.plist */; };
+		B535F1802021ED9200B7C0AF /* RegistrazioneOptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535F17F2021ED9200B7C0AF /* RegistrazioneOptViewController.swift */; };
+		B54195911FA735AE00E17AC9 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54195901FA735AE00E17AC9 /* ConnectionManager.swift */; };
+		B54195931FA7380A00E17AC9 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54195921FA7380A00E17AC9 /* DBManager.swift */; };
+		B54195961FA7381E00E17AC9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B54195941FA7381E00E17AC9 /* Model.xcdatamodeld */; };
+		B541959A1FA741B400E17AC9 /* Vino.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54195991FA741B400E17AC9 /* Vino.swift */; };
+		B541959C1FA7429700E17AC9 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541959B1FA7429700E17AC9 /* Badge.swift */; };
+		B541959E1FA74D9700E17AC9 /* Esito.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541959D1FA74D9700E17AC9 /* Esito.swift */; };
+		B54195A11FA7535F00E17AC9 /* Azienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54195A01FA7535F00E17AC9 /* Azienda.swift */; };
+		B548DDFE1FA1F4E800455BA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DDFD1FA1F4E800455BA7 /* AppDelegate.swift */; };
+		B548DE001FA1F4E800455BA7 /* EventiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DDFF1FA1F4E800455BA7 /* EventiViewController.swift */; };
+		B548DE051FA1F4E800455BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B548DE031FA1F4E800455BA7 /* Main.storyboard */; };
+		B548DE071FA1F4E800455BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B548DE061FA1F4E800455BA7 /* Assets.xcassets */; };
+		B548DE0A1FA1F4E800455BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B548DE081FA1F4E800455BA7 /* LaunchScreen.storyboard */; };
+		B548DE121FA1F80800455BA7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DE111FA1F80800455BA7 /* LoginViewController.swift */; };
+		B548DE141FA1F88000455BA7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DE131FA1F88000455BA7 /* FirstViewController.swift */; };
+		B548DE181FA1FFEF00455BA7 /* UDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DE171FA1FFEF00455BA7 /* UDManager.swift */; };
+		B548DE1B1FA2021F00455BA7 /* EventoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B548DE191FA2021F00455BA7 /* EventoTableViewCell.swift */; };
+		B548DE1C1FA2021F00455BA7 /* EventoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B548DE1A1FA2021F00455BA7 /* EventoTableViewCell.xib */; };
+		B5591E301FC6E11C001AB7AB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5591E2F1FC6E11C001AB7AB /* HeaderView.swift */; };
+		B5591E321FC6E149001AB7AB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5591E311FC6E149001AB7AB /* HeaderView.xib */; };
+		B55B9B49207361D4006AA290 /* BoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B9B48207361D4006AA290 /* BoardingViewController.swift */; };
+		B55B9B4B207364DB006AA290 /* SailecRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B55B9B4A207364D9006AA290 /* SailecRegular.otf */; };
+		B55B9B4D207364E2006AA290 /* SailecBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B55B9B4C207364E0006AA290 /* SailecBold.otf */; };
+		B55B9B4F20736F64006AA290 /* BoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B9B4E20736F64006AA290 /* BoardingCollectionViewCell.swift */; };
+		B56E24CB1FBDB41F00D07322 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E24CA1FBDB41F00D07322 /* FeedViewController.swift */; };
+		B56E24CD1FBDB4E100D07322 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56E24CC1FBDB4E100D07322 /* Feed.swift */; };
+		B57379631FA31CD900EE9F54 /* EventoDettaglioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379621FA31CD900EE9F54 /* EventoDettaglioViewController.swift */; };
+		B57379651FA322D600EE9F54 /* ImpostazioniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379641FA322D600EE9F54 /* ImpostazioniViewController.swift */; };
+		B57379671FA32B4C00EE9F54 /* ProfiloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379661FA32B4C00EE9F54 /* ProfiloViewController.swift */; };
+		B573796A1FA32E4E00EE9F54 /* BadgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379681FA32E4E00EE9F54 /* BadgeTableViewCell.swift */; };
+		B573796B1FA32E4E00EE9F54 /* BadgeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57379691FA32E4E00EE9F54 /* BadgeTableViewCell.xib */; };
+		B57379701FA331EB00EE9F54 /* VinoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573796E1FA331EB00EE9F54 /* VinoTableViewCell.swift */; };
+		B57379711FA331EB00EE9F54 /* VinoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B573796F1FA331EB00EE9F54 /* VinoTableViewCell.xib */; };
+		B57379741FA3382700EE9F54 /* TableSectionHeaderAzienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379731FA3382700EE9F54 /* TableSectionHeaderAzienda.swift */; };
+		B57379761FA3385300EE9F54 /* TableSectionHeaderAzienda.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57379751FA3385300EE9F54 /* TableSectionHeaderAzienda.xib */; };
+		B57379781FA343E100EE9F54 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57379771FA343E100EE9F54 /* Evento.swift */; };
+		B573797B1FA346AF00EE9F54 /* CaricamentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B573797A1FA346AF00EE9F54 /* CaricamentoView.swift */; };
+		B573797D1FA346DB00EE9F54 /* CaricamentoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B573797C1FA346DB00EE9F54 /* CaricamentoView.xib */; };
+		B57702431FA8823E00DFAAEC /* UtenteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57702411FA8823E00DFAAEC /* UtenteTableViewCell.swift */; };
+		B57702441FA8823E00DFAAEC /* UtenteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57702421FA8823E00DFAAEC /* UtenteTableViewCell.xib */; };
+		B57883F31FC2D32B004D0D5B /* FeedPubblicitaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57883F11FC2D32B004D0D5B /* FeedPubblicitaTableViewCell.swift */; };
+		B58268B71FC8313800A91143 /* FeedAzioneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58268B61FC8313800A91143 /* FeedAzioneTableViewCell.swift */; };
+		B58268B91FC834F400A91143 /* FeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58268B81FC834F400A91143 /* FeedPostTableViewCell.swift */; };
+		B58268BB1FC8398000A91143 /* PostDettaglioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58268BA1FC8398000A91143 /* PostDettaglioViewController.swift */; };
+		B5910405219065CE000A6B03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5910404219065CE000A6B03 /* GoogleService-Info.plist */; };
+		B5963B51202850A900352D82 /* CustomIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5963B50202850A900352D82 /* CustomIdentityProvider.swift */; };
+		B5A00B9E20038F490081FE37 /* HiddenTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A00B9D20038F490081FE37 /* HiddenTitleView.swift */; };
+		B5A00BA020038F910081FE37 /* HiddenTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A00B9F20038F910081FE37 /* HiddenTitleView.xib */; };
+		B5AAC3CF2020851B00F58D6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AAC3CE2020851B00F58D6D /* Constants.swift */; };
+		B5AED93C20D25EB200BBCC62 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED93B20D25EB200BBCC62 /* InfoViewController.swift */; };
+		B5B6E6491FC43D8200A7B6DA /* ProvinceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B6E6481FC43D8200A7B6DA /* ProvinceViewController.swift */; };
+		B5B6E64B1FC43EF800A7B6DA /* Provincia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B6E64A1FC43EF800A7B6DA /* Provincia.swift */; };
+		B5B6E64D1FC4433700A7B6DA /* ProvinciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B6E64C1FC4433700A7B6DA /* ProvinciaTableViewCell.swift */; };
+		B5B7D7982017481F00DFB7D3 /* DismissAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B7D7972017481F00DFB7D3 /* DismissAnimation.swift */; };
+		B5B8F0591FA89822004995E7 /* VinoDettaglioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8F0581FA89822004995E7 /* VinoDettaglioViewController.swift */; };
+		B5B8F05B1FA89930004995E7 /* AziendaDettaglioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B8F05A1FA89930004995E7 /* AziendaDettaglioViewController.swift */; };
+		B5CDC0CA225F361C000043F7 /* Inter-UI-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C4225F361C000043F7 /* Inter-UI-Medium.otf */; };
+		B5CDC0CB225F361C000043F7 /* Inter-UI-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C5225F361C000043F7 /* Inter-UI-Bold.otf */; };
+		B5CDC0CC225F361C000043F7 /* Inter-UI-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C6225F361C000043F7 /* Inter-UI-BoldItalic.otf */; };
+		B5CDC0CD225F361C000043F7 /* Inter-UI-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C7225F361C000043F7 /* Inter-UI-Italic.otf */; };
+		B5CDC0CE225F361C000043F7 /* Inter-UI-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C8225F361C000043F7 /* Inter-UI-MediumItalic.otf */; };
+		B5CDC0CF225F361C000043F7 /* Inter-UI-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5CDC0C9225F361C000043F7 /* Inter-UI-Regular.otf */; };
+		B5DADB3B2015F06300E6DDBD /* PresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DADB3A2015F06300E6DDBD /* PresentAnimator.swift */; };
+		B5E15B331FE914BB00E87741 /* FeedAziendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E15B311FE914BB00E87741 /* FeedAziendaTableViewCell.swift */; };
+		B5E15B341FE914BB00E87741 /* FeedAziendaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E15B321FE914BB00E87741 /* FeedAziendaTableViewCell.xib */; };
+		B5E6A0FC1FAB436A006A609D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E6A0FB1FAB436A006A609D /* Extensions.swift */; };
+		B5EFF1A01FE3EA2400A45FDB /* Larsseit-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF19F1FE3EA2200A45FDB /* Larsseit-Bold.otf */; };
+		B5EFF1A21FE3EA7000A45FDB /* Larsseit.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5EFF1A11FE3EA6D00A45FDB /* Larsseit.otf */; };
+		B5F8BB221FE90E7B00CA67EF /* Larsseit-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5F8BB211FE90E7A00CA67EF /* Larsseit-Medium.otf */; };
+		B5FB2E36200609DC0025F7EF /* ListaViniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB2E34200609DC0025F7EF /* ListaViniViewController.swift */; };
+		B5FB2E37200609DC0025F7EF /* ListaViniViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5FB2E35200609DC0025F7EF /* ListaViniViewController.xib */; };
+		FBDA8058030BBA10477235C5 /* Pods_Beautifulvino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5269581814C4358E69DC5F3 /* Pods_Beautifulvino.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B50191FC2004F43B00124587 /* TableSectionFooterVino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionFooterVino.swift; sourceTree = "<group>"; };
+		B50191FE2004F44C00124587 /* TableSectionFooterVino.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableSectionFooterVino.xib; sourceTree = "<group>"; };
+		B50F4FBB2024698000BDB291 /* FacebookProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookProvider.swift; sourceTree = "<group>"; };
+		B5117AA82019F55C00C163A4 /* ViewContentProfiloF.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewContentProfiloF.xib; sourceTree = "<group>"; };
+		B5117AAA2019F63900C163A4 /* ViewContentProfiloF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContentProfiloF.swift; sourceTree = "<group>"; };
+		B5117AAC2019FB2100C163A4 /* ViewContentProfiloS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContentProfiloS.swift; sourceTree = "<group>"; };
+		B5117AAE2019FB2D00C163A4 /* ViewContentProfiloS.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewContentProfiloS.xib; sourceTree = "<group>"; };
+		B51D49EB1FAC7B4500FD00AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B51D49ED1FAC8D9900FD00AA /* Utente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utente.swift; sourceTree = "<group>"; };
+		B52CEE1E20FC907B001C9B60 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		B52CEE1F20FC907B001C9B60 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B5345CA4201F2D39002DF35B /* GoogleService-Info1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info1.plist"; sourceTree = "<group>"; };
+		B535F17F2021ED9200B7C0AF /* RegistrazioneOptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrazioneOptViewController.swift; sourceTree = "<group>"; };
+		B54195901FA735AE00E17AC9 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		B54195921FA7380A00E17AC9 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B54195951FA7381E00E17AC9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B54195991FA741B400E17AC9 /* Vino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vino.swift; sourceTree = "<group>"; };
+		B541959B1FA7429700E17AC9 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		B541959D1FA74D9700E17AC9 /* Esito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esito.swift; sourceTree = "<group>"; };
+		B54195A01FA7535F00E17AC9 /* Azienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Azienda.swift; sourceTree = "<group>"; };
+		B54878C2201F19460080AF33 /* Beautifulvino-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beautifulvino-Bridging-Header.h"; sourceTree = "<group>"; };
+		B548DDFA1FA1F4E800455BA7 /* Beautifulvino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beautifulvino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B548DDFD1FA1F4E800455BA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B548DDFF1FA1F4E800455BA7 /* EventiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventiViewController.swift; sourceTree = "<group>"; };
+		B548DE041FA1F4E800455BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B548DE061FA1F4E800455BA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B548DE091FA1F4E800455BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B548DE0B1FA1F4E800455BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B548DE111FA1F80800455BA7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B548DE131FA1F88000455BA7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B548DE171FA1FFEF00455BA7 /* UDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDManager.swift; sourceTree = "<group>"; };
+		B548DE191FA2021F00455BA7 /* EventoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventoTableViewCell.swift; sourceTree = "<group>"; };
+		B548DE1A1FA2021F00455BA7 /* EventoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventoTableViewCell.xib; sourceTree = "<group>"; };
+		B548EC4720B4376F00D57B90 /* Beautifulvino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Beautifulvino.entitlements; sourceTree = "<group>"; };
+		B5591E2F1FC6E11C001AB7AB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B5591E311FC6E149001AB7AB /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		B55B9B48207361D4006AA290 /* BoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingViewController.swift; sourceTree = "<group>"; };
+		B55B9B4A207364D9006AA290 /* SailecRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SailecRegular.otf; sourceTree = "<group>"; };
+		B55B9B4C207364E0006AA290 /* SailecBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SailecBold.otf; sourceTree = "<group>"; };
+		B55B9B4E20736F64006AA290 /* BoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		B56E24CA1FBDB41F00D07322 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B56E24CC1FBDB4E100D07322 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B57379621FA31CD900EE9F54 /* EventoDettaglioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventoDettaglioViewController.swift; sourceTree = "<group>"; };
+		B57379641FA322D600EE9F54 /* ImpostazioniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpostazioniViewController.swift; sourceTree = "<group>"; };
+		B57379661FA32B4C00EE9F54 /* ProfiloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfiloViewController.swift; sourceTree = "<group>"; };
+		B57379681FA32E4E00EE9F54 /* BadgeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTableViewCell.swift; sourceTree = "<group>"; };
+		B57379691FA32E4E00EE9F54 /* BadgeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadgeTableViewCell.xib; sourceTree = "<group>"; };
+		B573796E1FA331EB00EE9F54 /* VinoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinoTableViewCell.swift; sourceTree = "<group>"; };
+		B573796F1FA331EB00EE9F54 /* VinoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VinoTableViewCell.xib; sourceTree = "<group>"; };
+		B57379731FA3382700EE9F54 /* TableSectionHeaderAzienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionHeaderAzienda.swift; sourceTree = "<group>"; };
+		B57379751FA3385300EE9F54 /* TableSectionHeaderAzienda.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableSectionHeaderAzienda.xib; sourceTree = "<group>"; };
+		B57379771FA343E100EE9F54 /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		B573797A1FA346AF00EE9F54 /* CaricamentoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaricamentoView.swift; sourceTree = "<group>"; };
+		B573797C1FA346DB00EE9F54 /* CaricamentoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaricamentoView.xib; sourceTree = "<group>"; };
+		B57702411FA8823E00DFAAEC /* UtenteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtenteTableViewCell.swift; sourceTree = "<group>"; };
+		B57702421FA8823E00DFAAEC /* UtenteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UtenteTableViewCell.xib; sourceTree = "<group>"; };
+		B57883F11FC2D32B004D0D5B /* FeedPubblicitaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPubblicitaTableViewCell.swift; sourceTree = "<group>"; };
+		B58268B61FC8313800A91143 /* FeedAzioneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAzioneTableViewCell.swift; sourceTree = "<group>"; };
+		B58268B81FC834F400A91143 /* FeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		B58268BA1FC8398000A91143 /* PostDettaglioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDettaglioViewController.swift; sourceTree = "<group>"; };
+		B5910404219065CE000A6B03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5963B50202850A900352D82 /* CustomIdentityProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIdentityProvider.swift; sourceTree = "<group>"; };
+		B5A00B9D20038F490081FE37 /* HiddenTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenTitleView.swift; sourceTree = "<group>"; };
+		B5A00B9F20038F910081FE37 /* HiddenTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HiddenTitleView.xib; sourceTree = "<group>"; };
+		B5AAC3CE2020851B00F58D6D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B5AED93B20D25EB200BBCC62 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		B5B6E6481FC43D8200A7B6DA /* ProvinceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceViewController.swift; sourceTree = "<group>"; };
+		B5B6E64A1FC43EF800A7B6DA /* Provincia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provincia.swift; sourceTree = "<group>"; };
+		B5B6E64C1FC4433700A7B6DA /* ProvinciaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinciaTableViewCell.swift; sourceTree = "<group>"; };
+		B5B7D7972017481F00DFB7D3 /* DismissAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimation.swift; sourceTree = "<group>"; };
+		B5B8F0581FA89822004995E7 /* VinoDettaglioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinoDettaglioViewController.swift; sourceTree = "<group>"; };
+		B5B8F05A1FA89930004995E7 /* AziendaDettaglioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AziendaDettaglioViewController.swift; sourceTree = "<group>"; };
+		B5CDC0C4225F361C000043F7 /* Inter-UI-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-Medium.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-Medium.otf"; sourceTree = "<group>"; };
+		B5CDC0C5225F361C000043F7 /* Inter-UI-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-Bold.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-Bold.otf"; sourceTree = "<group>"; };
+		B5CDC0C6225F361C000043F7 /* Inter-UI-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-BoldItalic.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-BoldItalic.otf"; sourceTree = "<group>"; };
+		B5CDC0C7225F361C000043F7 /* Inter-UI-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-Italic.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-Italic.otf"; sourceTree = "<group>"; };
+		B5CDC0C8225F361C000043F7 /* Inter-UI-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-MediumItalic.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-MediumItalic.otf"; sourceTree = "<group>"; };
+		B5CDC0C9225F361C000043F7 /* Inter-UI-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-UI-Regular.otf"; path = "../../../Beautifulvino21pubblicata/Beautifulvino/Fonts/Inter-UI-Regular.otf"; sourceTree = "<group>"; };
+		B5DADB3A2015F06300E6DDBD /* PresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAnimator.swift; sourceTree = "<group>"; };
+		B5E15B311FE914BB00E87741 /* FeedAziendaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAziendaTableViewCell.swift; sourceTree = "<group>"; };
+		B5E15B321FE914BB00E87741 /* FeedAziendaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedAziendaTableViewCell.xib; sourceTree = "<group>"; };
+		B5E6A0FB1FAB436A006A609D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B5EFF19F1FE3EA2200A45FDB /* Larsseit-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Larsseit-Bold.otf"; sourceTree = "<group>"; };
+		B5EFF1A11FE3EA6D00A45FDB /* Larsseit.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Larsseit.otf; sourceTree = "<group>"; };
+		B5F8BB211FE90E7A00CA67EF /* Larsseit-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Larsseit-Medium.otf"; sourceTree = "<group>"; };
+		B5FB2E34200609DC0025F7EF /* ListaViniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViniViewController.swift; sourceTree = "<group>"; };
+		B5FB2E35200609DC0025F7EF /* ListaViniViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListaViniViewController.xib; sourceTree = "<group>"; };
+		B96C9E3D8532AF335C39B133 /* Pods-Beautifulvino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beautifulvino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino.debug.xcconfig"; sourceTree = "<group>"; };
+		E643E3D66556EB7CD46935A8 /* Pods-Beautifulvino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beautifulvino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino.release.xcconfig"; sourceTree = "<group>"; };
+		F5269581814C4358E69DC5F3 /* Pods_Beautifulvino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beautifulvino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B548DDF71FA1F4E800455BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51D49EC1FAC7B6600FD00AA /* MapKit.framework in Frameworks */,
+				FBDA8058030BBA10477235C5 /* Pods_Beautifulvino.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323E565B104CC4579EC77CCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B96C9E3D8532AF335C39B133 /* Pods-Beautifulvino.debug.xcconfig */,
+				E643E3D66556EB7CD46935A8 /* Pods-Beautifulvino.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D5D2F2C51F664A050E2F55A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51D49EB1FAC7B4500FD00AA /* MapKit.framework */,
+				F5269581814C4358E69DC5F3 /* Pods_Beautifulvino.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B548DDF11FA1F4E800455BA7 = {
+			isa = PBXGroup;
+			children = (
+				B5910404219065CE000A6B03 /* GoogleService-Info.plist */,
+				B5345CA4201F2D39002DF35B /* GoogleService-Info1.plist */,
+				B548DDFC1FA1F4E800455BA7 /* Beautifulvino */,
+				B548DDFB1FA1F4E800455BA7 /* Products */,
+				323E565B104CC4579EC77CCA /* Pods */,
+				9D5D2F2C51F664A050E2F55A /* Frameworks */,
+				B54878C2201F19460080AF33 /* Beautifulvino-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		B548DDFB1FA1F4E800455BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B548DDFA1FA1F4E800455BA7 /* Beautifulvino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B548DDFC1FA1F4E800455BA7 /* Beautifulvino */ = {
+			isa = PBXGroup;
+			children = (
+				B548EC4720B4376F00D57B90 /* Beautifulvino.entitlements */,
+				B55848971FE3DB8400BB0362 /* Fonts */,
+				B5591E2F1FC6E11C001AB7AB /* HeaderView.swift */,
+				B5591E311FC6E149001AB7AB /* HeaderView.xib */,
+				B5A00B9D20038F490081FE37 /* HiddenTitleView.swift */,
+				B5A00B9F20038F910081FE37 /* HiddenTitleView.xib */,
+				B573797A1FA346AF00EE9F54 /* CaricamentoView.swift */,
+				B573797C1FA346DB00EE9F54 /* CaricamentoView.xib */,
+				B57379791FA343E500EE9F54 /* Model */,
+				B57379721FA331F500EE9F54 /* Cell */,
+				B548DDFD1FA1F4E800455BA7 /* AppDelegate.swift */,
+				B5FB2E34200609DC0025F7EF /* ListaViniViewController.swift */,
+				B5FB2E35200609DC0025F7EF /* ListaViniViewController.xib */,
+				B58268BA1FC8398000A91143 /* PostDettaglioViewController.swift */,
+				B5B8F05A1FA89930004995E7 /* AziendaDettaglioViewController.swift */,
+				B56E24CA1FBDB41F00D07322 /* FeedViewController.swift */,
+				B548DDFF1FA1F4E800455BA7 /* EventiViewController.swift */,
+				B5B6E6481FC43D8200A7B6DA /* ProvinceViewController.swift */,
+				B57379661FA32B4C00EE9F54 /* ProfiloViewController.swift */,
+				B57379621FA31CD900EE9F54 /* EventoDettaglioViewController.swift */,
+				B5AED93B20D25EB200BBCC62 /* InfoViewController.swift */,
+				B5B8F0581FA89822004995E7 /* VinoDettaglioViewController.swift */,
+				B548DE031FA1F4E800455BA7 /* Main.storyboard */,
+				B535F17F2021ED9200B7C0AF /* RegistrazioneOptViewController.swift */,
+				B548DE111FA1F80800455BA7 /* LoginViewController.swift */,
+				B548DE131FA1F88000455BA7 /* FirstViewController.swift */,
+				B548DE061FA1F4E800455BA7 /* Assets.xcassets */,
+				B548DE081FA1F4E800455BA7 /* LaunchScreen.storyboard */,
+				B548DE0B1FA1F4E800455BA7 /* Info.plist */,
+				B57379641FA322D600EE9F54 /* ImpostazioniViewController.swift */,
+				B5E6A0FB1FAB436A006A609D /* Extensions.swift */,
+				B5DADB3A2015F06300E6DDBD /* PresentAnimator.swift */,
+				B5B7D7972017481F00DFB7D3 /* DismissAnimation.swift */,
+				B5117AAA2019F63900C163A4 /* ViewContentProfiloF.swift */,
+				B5117AA82019F55C00C163A4 /* ViewContentProfiloF.xib */,
+				B5117AAC2019FB2100C163A4 /* ViewContentProfiloS.swift */,
+				B5117AAE2019FB2D00C163A4 /* ViewContentProfiloS.xib */,
+				B55B9B48207361D4006AA290 /* BoardingViewController.swift */,
+			);
+			path = Beautifulvino;
+			sourceTree = "<group>";
+		};
+		B55848971FE3DB8400BB0362 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B5CDC0C5225F361C000043F7 /* Inter-UI-Bold.otf */,
+				B5CDC0C6225F361C000043F7 /* Inter-UI-BoldItalic.otf */,
+				B5CDC0C7225F361C000043F7 /* Inter-UI-Italic.otf */,
+				B5CDC0C4225F361C000043F7 /* Inter-UI-Medium.otf */,
+				B5CDC0C8225F361C000043F7 /* Inter-UI-MediumItalic.otf */,
+				B5CDC0C9225F361C000043F7 /* Inter-UI-Regular.otf */,
+				B55B9B4C207364E0006AA290 /* SailecBold.otf */,
+				B55B9B4A207364D9006AA290 /* SailecRegular.otf */,
+				B5F8BB211FE90E7A00CA67EF /* Larsseit-Medium.otf */,
+				B5EFF1A11FE3EA6D00A45FDB /* Larsseit.otf */,
+				B5EFF19F1FE3EA2200A45FDB /* Larsseit-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B57379721FA331F500EE9F54 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B573796E1FA331EB00EE9F54 /* VinoTableViewCell.swift */,
+				B573796F1FA331EB00EE9F54 /* VinoTableViewCell.xib */,
+				B548DE191FA2021F00455BA7 /* EventoTableViewCell.swift */,
+				B548DE1A1FA2021F00455BA7 /* EventoTableViewCell.xib */,
+				B57379681FA32E4E00EE9F54 /* BadgeTableViewCell.swift */,
+				B57379691FA32E4E00EE9F54 /* BadgeTableViewCell.xib */,
+				B57379731FA3382700EE9F54 /* TableSectionHeaderAzienda.swift */,
+				B57379751FA3385300EE9F54 /* TableSectionHeaderAzienda.xib */,
+				B50191FC2004F43B00124587 /* TableSectionFooterVino.swift */,
+				B50191FE2004F44C00124587 /* TableSectionFooterVino.xib */,
+				B57702411FA8823E00DFAAEC /* UtenteTableViewCell.swift */,
+				B57702421FA8823E00DFAAEC /* UtenteTableViewCell.xib */,
+				B57883F11FC2D32B004D0D5B /* FeedPubblicitaTableViewCell.swift */,
+				B58268B61FC8313800A91143 /* FeedAzioneTableViewCell.swift */,
+				B58268B81FC834F400A91143 /* FeedPostTableViewCell.swift */,
+				B5B6E64C1FC4433700A7B6DA /* ProvinciaTableViewCell.swift */,
+				B5E15B311FE914BB00E87741 /* FeedAziendaTableViewCell.swift */,
+				B5E15B321FE914BB00E87741 /* FeedAziendaTableViewCell.xib */,
+				B55B9B4E20736F64006AA290 /* BoardingCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B57379791FA343E500EE9F54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B57379771FA343E100EE9F54 /* Evento.swift */,
+				B56E24CC1FBDB4E100D07322 /* Feed.swift */,
+				B54195901FA735AE00E17AC9 /* ConnectionManager.swift */,
+				B54195921FA7380A00E17AC9 /* DBManager.swift */,
+				B54195941FA7381E00E17AC9 /* Model.xcdatamodeld */,
+				B54195991FA741B400E17AC9 /* Vino.swift */,
+				B541959B1FA7429700E17AC9 /* Badge.swift */,
+				B541959D1FA74D9700E17AC9 /* Esito.swift */,
+				B54195A01FA7535F00E17AC9 /* Azienda.swift */,
+				B51D49ED1FAC8D9900FD00AA /* Utente.swift */,
+				B5B6E64A1FC43EF800A7B6DA /* Provincia.swift */,
+				B5AAC3CE2020851B00F58D6D /* Constants.swift */,
+				B548DE171FA1FFEF00455BA7 /* UDManager.swift */,
+				B50F4FBB2024698000BDB291 /* FacebookProvider.swift */,
+				B5963B50202850A900352D82 /* CustomIdentityProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B548DDF91FA1F4E800455BA7 /* Beautifulvino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B548DE0E1FA1F4E800455BA7 /* Build configuration list for PBXNativeTarget "Beautifulvino" */;
+			buildPhases = (
+				9870170642C51C19CA881738 /* [CP] Check Pods Manifest.lock */,
+				B548DDF61FA1F4E800455BA7 /* Sources */,
+				B548DDF71FA1F4E800455BA7 /* Frameworks */,
+				B548DDF81FA1F4E800455BA7 /* Resources */,
+				6C98D2BFB0D9B8BC18B3E122 /* [CP] Embed Pods Frameworks */,
+				039FEDE4E8DD8BC333453888 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beautifulvino;
+			productName = Beautifulvino;
+			productReference = B548DDFA1FA1F4E800455BA7 /* Beautifulvino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B548DDF21FA1F4E800455BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Maria Tourbanova";
+				TargetAttributes = {
+					B548DDF91FA1F4E800455BA7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B548DDF51FA1F4E800455BA7 /* Build configuration list for PBXProject "Beautifulvino" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B548DDF11FA1F4E800455BA7;
+			productRefGroup = B548DDFB1FA1F4E800455BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B548DDF91FA1F4E800455BA7 /* Beautifulvino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B548DDF81FA1F4E800455BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A00BA020038F910081FE37 /* HiddenTitleView.xib in Resources */,
+				B5CDC0CF225F361C000043F7 /* Inter-UI-Regular.otf in Resources */,
+				B5345CA5201F2D3A002DF35B /* GoogleService-Info1.plist in Resources */,
+				B5117AAF2019FB2D00C163A4 /* ViewContentProfiloS.xib in Resources */,
+				B5CDC0CD225F361C000043F7 /* Inter-UI-Italic.otf in Resources */,
+				B5EFF1A21FE3EA7000A45FDB /* Larsseit.otf in Resources */,
+				B5E15B341FE914BB00E87741 /* FeedAziendaTableViewCell.xib in Resources */,
+				B57379761FA3385300EE9F54 /* TableSectionHeaderAzienda.xib in Resources */,
+				B5CDC0CB225F361C000043F7 /* Inter-UI-Bold.otf in Resources */,
+				B548DE0A1FA1F4E800455BA7 /* LaunchScreen.storyboard in Resources */,
+				B5FB2E37200609DC0025F7EF /* ListaViniViewController.xib in Resources */,
+				B5117AA92019F55C00C163A4 /* ViewContentProfiloF.xib in Resources */,
+				B548DE071FA1F4E800455BA7 /* Assets.xcassets in Resources */,
+				B5591E321FC6E149001AB7AB /* HeaderView.xib in Resources */,
+				B5EFF1A01FE3EA2400A45FDB /* Larsseit-Bold.otf in Resources */,
+				B548DE1C1FA2021F00455BA7 /* EventoTableViewCell.xib in Resources */,
+				B50191FF2004F44C00124587 /* TableSectionFooterVino.xib in Resources */,
+				B5CDC0CA225F361C000043F7 /* Inter-UI-Medium.otf in Resources */,
+				B57379711FA331EB00EE9F54 /* VinoTableViewCell.xib in Resources */,
+				B5CDC0CE225F361C000043F7 /* Inter-UI-MediumItalic.otf in Resources */,
+				B573797D1FA346DB00EE9F54 /* CaricamentoView.xib in Resources */,
+				B57702441FA8823E00DFAAEC /* UtenteTableViewCell.xib in Resources */,
+				B55B9B4B207364DB006AA290 /* SailecRegular.otf in Resources */,
+				B573796B1FA32E4E00EE9F54 /* BadgeTableViewCell.xib in Resources */,
+				B5910405219065CE000A6B03 /* GoogleService-Info.plist in Resources */,
+				B548DE051FA1F4E800455BA7 /* Main.storyboard in Resources */,
+				B55B9B4D207364E2006AA290 /* SailecBold.otf in Resources */,
+				B5F8BB221FE90E7B00CA67EF /* Larsseit-Medium.otf in Resources */,
+				B5CDC0CC225F361C000043F7 /* Inter-UI-BoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039FEDE4E8DD8BC333453888 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C98D2BFB0D9B8BC18B3E122 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSGoogleSignIn/AWSGoogleSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSGoogleSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Beautifulvino/Pods-Beautifulvino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9870170642C51C19CA881738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Beautifulvino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B548DDF61FA1F4E800455BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57379741FA3382700EE9F54 /* TableSectionHeaderAzienda.swift in Sources */,
+				B5E6A0FC1FAB436A006A609D /* Extensions.swift in Sources */,
+				B541959A1FA741B400E17AC9 /* Vino.swift in Sources */,
+				B573797B1FA346AF00EE9F54 /* CaricamentoView.swift in Sources */,
+				B5B8F05B1FA89930004995E7 /* AziendaDettaglioViewController.swift in Sources */,
+				B535F1802021ED9200B7C0AF /* RegistrazioneOptViewController.swift in Sources */,
+				B548DE181FA1FFEF00455BA7 /* UDManager.swift in Sources */,
+				B5B8F0591FA89822004995E7 /* VinoDettaglioViewController.swift in Sources */,
+				B573796A1FA32E4E00EE9F54 /* BadgeTableViewCell.swift in Sources */,
+				B50F4FBC2024698000BDB291 /* FacebookProvider.swift in Sources */,
+				B55B9B49207361D4006AA290 /* BoardingViewController.swift in Sources */,
+				B57379671FA32B4C00EE9F54 /* ProfiloViewController.swift in Sources */,
+				B58268B71FC8313800A91143 /* FeedAzioneTableViewCell.swift in Sources */,
+				B548DE141FA1F88000455BA7 /* FirstViewController.swift in Sources */,
+				B55B9B4F20736F64006AA290 /* BoardingCollectionViewCell.swift in Sources */,
+				B541959C1FA7429700E17AC9 /* Badge.swift in Sources */,
+				B5E15B331FE914BB00E87741 /* FeedAziendaTableViewCell.swift in Sources */,
+				B58268BB1FC8398000A91143 /* PostDettaglioViewController.swift in Sources */,
+				B548DE1B1FA2021F00455BA7 /* EventoTableViewCell.swift in Sources */,
+				B5B7D7982017481F00DFB7D3 /* DismissAnimation.swift in Sources */,
+				B548DE121FA1F80800455BA7 /* LoginViewController.swift in Sources */,
+				B57379631FA31CD900EE9F54 /* EventoDettaglioViewController.swift in Sources */,
+				B57379781FA343E100EE9F54 /* Evento.swift in Sources */,
+				B57883F31FC2D32B004D0D5B /* FeedPubblicitaTableViewCell.swift in Sources */,
+				B5B6E64D1FC4433700A7B6DA /* ProvinciaTableViewCell.swift in Sources */,
+				B5AED93C20D25EB200BBCC62 /* InfoViewController.swift in Sources */,
+				B5FB2E36200609DC0025F7EF /* ListaViniViewController.swift in Sources */,
+				B51D49EE1FAC8D9900FD00AA /* Utente.swift in Sources */,
+				B5117AAB2019F63900C163A4 /* ViewContentProfiloF.swift in Sources */,
+				B5117AAD2019FB2100C163A4 /* ViewContentProfiloS.swift in Sources */,
+				B548DDFE1FA1F4E800455BA7 /* AppDelegate.swift in Sources */,
+				B5591E301FC6E11C001AB7AB /* HeaderView.swift in Sources */,
+				B56E24CB1FBDB41F00D07322 /* FeedViewController.swift in Sources */,
+				B54195911FA735AE00E17AC9 /* ConnectionManager.swift in Sources */,
+				B5AAC3CF2020851B00F58D6D /* Constants.swift in Sources */,
+				B54195931FA7380A00E17AC9 /* DBManager.swift in Sources */,
+				B56E24CD1FBDB4E100D07322 /* Feed.swift in Sources */,
+				B5DADB3B2015F06300E6DDBD /* PresentAnimator.swift in Sources */,
+				B5A00B9E20038F490081FE37 /* HiddenTitleView.swift in Sources */,
+				B541959E1FA74D9700E17AC9 /* Esito.swift in Sources */,
+				B57379701FA331EB00EE9F54 /* VinoTableViewCell.swift in Sources */,
+				B548DE001FA1F4E800455BA7 /* EventiViewController.swift in Sources */,
+				B5963B51202850A900352D82 /* CustomIdentityProvider.swift in Sources */,
+				B57379651FA322D600EE9F54 /* ImpostazioniViewController.swift in Sources */,
+				B58268B91FC834F400A91143 /* FeedPostTableViewCell.swift in Sources */,
+				B57702431FA8823E00DFAAEC /* UtenteTableViewCell.swift in Sources */,
+				B5B6E6491FC43D8200A7B6DA /* ProvinceViewController.swift in Sources */,
+				B54195961FA7381E00E17AC9 /* Model.xcdatamodeld in Sources */,
+				B54195A11FA7535F00E17AC9 /* Azienda.swift in Sources */,
+				B5B6E64B1FC43EF800A7B6DA /* Provincia.swift in Sources */,
+				B50191FD2004F43B00124587 /* TableSectionFooterVino.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B548DE031FA1F4E800455BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B548DE041FA1F4E800455BA7 /* Base */,
+				B52CEE1E20FC907B001C9B60 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B548DE081FA1F4E800455BA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B548DE091FA1F4E800455BA7 /* Base */,
+				B52CEE1F20FC907B001C9B60 /* it */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B548DE0C1FA1F4E800455BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B548DE0D1FA1F4E800455BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B548DE0F1FA1F4E800455BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C9E3D8532AF335C39B133 /* Pods-Beautifulvino.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Beautifulvino/Beautifulvino.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DDTM85LE5;
+				INFOPLIST_FILE = Beautifulvino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marte5.Beautifulvino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beautifulvino-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B548DE101FA1F4E800455BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E643E3D66556EB7CD46935A8 /* Pods-Beautifulvino.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Beautifulvino/Beautifulvino.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DDTM85LE5;
+				INFOPLIST_FILE = Beautifulvino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marte5.Beautifulvino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Beautifulvino-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B548DDF51FA1F4E800455BA7 /* Build configuration list for PBXProject "Beautifulvino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548DE0C1FA1F4E800455BA7 /* Debug */,
+				B548DE0D1FA1F4E800455BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B548DE0E1FA1F4E800455BA7 /* Build configuration list for PBXNativeTarget "Beautifulvino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B548DE0F1FA1F4E800455BA7 /* Debug */,
+				B548DE101FA1F4E800455BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B54195941FA7381E00E17AC9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B54195951FA7381E00E17AC9 /* Model.xcdatamodel */,
+			);
+			currentVersion = B54195951FA7381E00E17AC9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B548DDF21FA1F4E800455BA7 /* Project object */;
+}

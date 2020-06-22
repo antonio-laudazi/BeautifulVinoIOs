@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-UI-Regular.otf">
+            <string>InterUI-Regular</string>
+        </array>
+        <array key="Larsseit-Bold.otf">
+            <string>Larsseit-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellIdentifierBadge" rowHeight="132" id="KGk-i7-Jjw" customClass="BadgeTableViewCell" customModule="Beautifulvino" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="131.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sfondoBianco" translatesAutoresizingMaskIntoConstraints="NO" id="s7L-Y4-a6q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome badge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVe-2c-klD">
+                        <rect key="frame" x="115" y="41" width="162" height="48"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="Jwj-Qu-oqt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Larsseit-Bold" family="Larsseit" pointSize="21"/>
+                        <color key="textColor" red="0.2274509804" green="0.18823529410000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info badge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wH9-VC-YIn">
+                        <rect key="frame" x="115" y="68" width="162" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="seW-UN-Qt9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="11"/>
+                        <color key="textColor" red="0.47450980392156861" green="0.44313725490196076" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="yM7-TX-NJB">
+                        <rect key="frame" x="37" y="38" width="56" height="56"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="HFO-EU-WVa"/>
+                            <constraint firstAttribute="width" constant="56" id="pke-9B-SJp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome badge" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ra-IK-o9x">
+                        <rect key="frame" x="115" y="20" width="162" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="chL-Ix-B4l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Larsseit-Bold" family="Larsseit" pointSize="21"/>
+                        <color key="textColor" red="0.22745098039215686" green="0.18823529411764706" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yIT-gM-k8n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="yIT-gM-k8n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0mv-j3-bmE"/>
+                    <constraint firstAttribute="trailing" secondItem="yIT-gM-k8n" secondAttribute="trailing" id="6ML-8u-cvZ"/>
+                    <constraint firstAttribute="bottom" secondItem="s7L-Y4-a6q" secondAttribute="bottom" constant="-0.5" id="7q9-Yq-aOT"/>
+                    <constraint firstItem="cVe-2c-klD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="AMp-G0-APM"/>
+                    <constraint firstItem="s7L-Y4-a6q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B0X-Za-4Pn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1Ra-IK-o9x" secondAttribute="trailing" constant="27" id="CWd-Xf-1fq"/>
+                    <constraint firstItem="yIT-gM-k8n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ESG-Gb-rl6"/>
+                    <constraint firstItem="cVe-2c-klD" firstAttribute="leading" secondItem="yM7-TX-NJB" secondAttribute="trailing" constant="22" id="HuM-px-YZo"/>
+                    <constraint firstItem="yM7-TX-NJB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="L06-25-jTG"/>
+                    <constraint firstItem="yM7-TX-NJB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="SHE-PQ-kzs"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cVe-2c-klD" secondAttribute="trailing" constant="27" id="Swa-Ap-Ceq"/>
+                    <constraint firstItem="wH9-VC-YIn" firstAttribute="leading" secondItem="yM7-TX-NJB" secondAttribute="trailing" constant="22" id="TFD-kd-5NK"/>
+                    <constraint firstAttribute="bottom" secondItem="yIT-gM-k8n" secondAttribute="bottom" id="Uyi-X1-3XE"/>
+                    <constraint firstItem="s7L-Y4-a6q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="W4I-YR-4sh"/>
+                    <constraint firstItem="1Ra-IK-o9x" firstAttribute="leading" secondItem="yM7-TX-NJB" secondAttribute="trailing" constant="22" id="chR-6v-mgw"/>
+                    <constraint firstItem="wH9-VC-YIn" firstAttribute="top" secondItem="1Ra-IK-o9x" secondAttribute="bottom" id="hdw-Tn-4tq"/>
+                    <constraint firstItem="1Ra-IK-o9x" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="mfa-0o-bhm"/>
+                    <constraint firstAttribute="trailing" secondItem="s7L-Y4-a6q" secondAttribute="trailing" id="pPQ-1Y-EQw"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wH9-VC-YIn" secondAttribute="trailing" constant="27" id="xDv-UP-t13"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageViewLogoBadge" destination="yM7-TX-NJB" id="tOk-1c-ika"/>
+                <outlet property="labelInfoBadge" destination="wH9-VC-YIn" id="jmW-eY-PCo"/>
+                <outlet property="labelNomeBadge" destination="1Ra-IK-o9x" id="e6n-l1-yYH"/>
+                <outlet property="labelNomeCenteredBadge" destination="cVe-2c-klD" id="FRw-is-fdS"/>
+                <outlet property="viewOpacityBadge" destination="yIT-gM-k8n" id="aSm-VW-t3h"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="-58"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="295" height="160"/>
+        <image name="sfondoBianco" width="385" height="296"/>
+    </resources>
+</document>

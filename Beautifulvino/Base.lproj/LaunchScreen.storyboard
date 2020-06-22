@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-UI-Regular.otf">
+            <string>InterUI-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7OD-54-KHb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Hew-1Z-kgj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Il vino non è mai stato così bello" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4G-hs-ruu">
+                                <rect key="frame" x="88.5" y="386" width="198" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="bs8-Yd-GhG"/>
+                                    <constraint firstAttribute="width" constant="198" id="fFQ-du-lcR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="InterUI-Regular" family="Inter UI" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico" translatesAutoresizingMaskIntoConstraints="NO" id="R4F-Pi-3hV">
+                                <rect key="frame" x="162.5" y="197" width="50" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="FXJ-1y-0Vz"/>
+                                    <constraint firstAttribute="width" constant="50" id="gkU-cd-2gK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aeU-PI-gZc">
+                                <rect key="frame" x="98" y="287" width="178" height="26"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.17254901959999999" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hew-1Z-kgj" firstAttribute="trailing" secondItem="V0u-q5-85B" secondAttribute="trailing" id="H9F-DB-dNz"/>
+                            <constraint firstItem="Hew-1Z-kgj" firstAttribute="leading" secondItem="V0u-q5-85B" secondAttribute="leading" id="ILb-es-0mu"/>
+                            <constraint firstItem="Hew-1Z-kgj" firstAttribute="bottom" secondItem="V0u-q5-85B" secondAttribute="bottom" id="JMF-Sw-P17"/>
+                            <constraint firstItem="Hew-1Z-kgj" firstAttribute="top" secondItem="7OD-54-KHb" secondAttribute="top" id="P54-k9-ec9"/>
+                            <constraint firstItem="e4G-hs-ruu" firstAttribute="centerX" secondItem="7OD-54-KHb" secondAttribute="centerX" id="QjZ-jO-7BM"/>
+                            <constraint firstItem="R4F-Pi-3hV" firstAttribute="top" secondItem="V0u-q5-85B" secondAttribute="top" constant="177" id="TkG-eu-M1F"/>
+                            <constraint firstItem="aeU-PI-gZc" firstAttribute="top" secondItem="R4F-Pi-3hV" secondAttribute="bottom" constant="23" id="ish-2z-SKt"/>
+                            <constraint firstItem="aeU-PI-gZc" firstAttribute="centerX" secondItem="7OD-54-KHb" secondAttribute="centerX" id="kVn-3d-g8a"/>
+                            <constraint firstItem="R4F-Pi-3hV" firstAttribute="centerX" secondItem="7OD-54-KHb" secondAttribute="centerX" id="pYd-uF-yvF"/>
+                            <constraint firstItem="e4G-hs-ruu" firstAttribute="top" secondItem="aeU-PI-gZc" secondAttribute="bottom" constant="73" id="rIr-b2-e2C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V0u-q5-85B"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="178" height="26"/>
+        <image name="bg" width="375" height="667"/>
+        <image name="ico" width="94" height="126"/>
+    </resources>
+</document>
